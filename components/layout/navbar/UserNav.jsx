@@ -1,6 +1,6 @@
 "use client";
 import { authOptions } from "@/app/lib/nextAuth";
-import SignoutBtn from "@/components/ui/auth/signout-btn/signoutBtn";
+import SignoutBtn from "@/components/ui/auth/signout-btn/SignoutBtn";
 import Loading from "@/components/ui/loading/Loading";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
