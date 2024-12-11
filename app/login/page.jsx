@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import Logo from "../../components/ui/logo/Logo"
-import SignInBtn from "@/components/ui/auth/signIn-btn/signInBtn"
+import SignInBtn from "@/components/ui/auth/signIn-btn/SignInBtn"
 
 const loginPage = () => {
     return (
