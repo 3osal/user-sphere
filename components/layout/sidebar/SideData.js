@@ -29,7 +29,7 @@ export const SIDEBAR_DATA = [
         id : 3,
         lable : "my profile",
         icon : <FaRegUser />,
-        path : '/dashboard/analytics'
+        path : '/dashboard/profile'
     },
     {
         id : 4,

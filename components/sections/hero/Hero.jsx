@@ -16,19 +16,12 @@ const Hero = () => {
             with our comprehensive dashboard.
           </h3>
           {/* BUTTONS */}
-          <div className="flex gap-2 items-center mt-5">
+          <div className=" mt-5">
             <Link
               href="/login"
               className="bg-bgColor px-4 py-[15px] rounded-[10px] text-white capitalize "
             >
-              login
-            </Link>
-            <span>or</span>
-            <Link
-              href={"/"}
-              className="bg-transparent border border-bgColor px-4 py-[15px] rounded-[10px] text-primary capitalize "
-            >
-              sign in now
+              sign in
             </Link>
           </div>
         </div>

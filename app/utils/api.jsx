@@ -69,3 +69,26 @@ export async function searchUsers(searchId) {
     throw error;
   }
 }
+
+
+// ADD USER
+export async function addUser(userData) {
+  try {
+    const res = await fetch('https://dummyjson.com/users/add', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(userData),
+    });
+
+    if (!res.ok) {
+      throw new Error(`Failed to add user: ${res.status}`);
+    }
+
+    const data = await res.json();
+    console.log("User added successfully:", data);
+    return data;
+  } catch (error) {
+    console.error("Error adding user:", error);
+    throw error;
+  }
+}
